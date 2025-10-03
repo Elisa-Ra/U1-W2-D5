@@ -44,18 +44,18 @@ main {
 }
 
 .bg-dark {
-  color: #eaeded;
-  background-color: #222f3e;
+  color: #e9edee;
+  background-color: #222f3f;
 }
 
 .bg-grey {
-  color: #eaeded;
+  color: #e9edee;
   background-color: #364759;
 }
 
 .bg-yellow {
-  color: #eaeded;
-  background-color: #f56600;
+  color: #e9edee;
+  background-color: #f76500;
 }
 
 .py-1 {
@@ -98,14 +98,14 @@ ul li {
 
 ul li a {
   display: block;
-  color: #eaeded;
+  color: #e9edee;
   text-align: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 a {
-  color: #eaeded;
+  color: #e9edee;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -117,7 +117,7 @@ nav {
 .background {
   background-image: url("../images/bg-image.png");
   width: 100%;
-  color: #eaeded;
+  color: #e9edee;
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 3rem;
