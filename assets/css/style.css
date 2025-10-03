@@ -25,8 +25,15 @@ p {
 }
 /* IMPOSTAZIONI PERSONALIZZATE */
 
+body {
+  background-color: #e9edee;
+}
+
 main {
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0;
   background-color: #e9edee;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,15 +62,26 @@ main {
   padding: 1rem 0;
 }
 
-.logo {
+.logo-header {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 0;
   padding-left: 2rem;
 }
 
-.logo img {
+.logo-header img {
   width: 10%;
+}
+
+.logo-footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.logo-footer img {
+  width: 15%;
+  display: block;
+  margin: auto;
 }
 
 ul {
@@ -84,6 +102,12 @@ ul li a {
   text-align: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
+}
+
+a {
+  color: #eaeded;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -131,4 +155,32 @@ nav {
 .container-for-inline p {
   padding-top: 1rem;
   padding-left: 1rem;
+  font-weight: bold;
+}
+
+.text p,
+button {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.text button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  color: #00788b;
+  cursor: pointer;
+}
+
+.img9 {
+  width: 100%;
+}
+
+.img9 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+footer {
+  width: 100%;
 }
